@@ -75,9 +75,9 @@ export const SERVICE_PAGES = [
     draft: false,
     plate: "/images/gallery/scaling-with-systems-live-2022/03.webp",
     title: "Live event production",
-    seoTitle: "Live Event Production Company | Iconic Events, Miami and Las Vegas",
+    seoTitle: "Live Event Production Company | Iconic Events",
     description:
-      "Live event production by Iconic Events: stage, light, sound, video and scenic, specified, negotiated and directed as one show, with a dedicated show caller and a Day 0 tech rehearsal at every event. Founded 2017, based in Miami.",
+      "Live event production by Iconic Events: stage, sound, video and scenic directed as one show, with a dedicated show caller and Day 0 rehearsal.",
     buyer:
       "Live event production for founders, brands and creators who need a summit, launch or mastermind built, rehearsed and run as one show, with one team accountable for the room.",
     lead:
@@ -88,6 +88,7 @@ export const SERVICE_PAGES = [
         "Live event production is everything the audience sees and hears from the moment doors open: the stage and set, the lighting, the sound, the screens and cameras, and the scenic that holds it together. It also covers what the audience never sees: the rigging, the power, the crew, the Day 0 rehearsal, and the run of show that decides what happens in which minute. Our run of show is tentative at 14 days out and locked at 7.",
         "Most event planners oversee logistics. We engineer the room your audience decides in. In practice that means one team specifies every element of the production for the show you are putting on. It negotiates the production with local partners who know the venue, and directs it on the day through one show caller. The stage is drawn around the run of show rather than around what the venue has on a truss. The audio is designed for speech first, because a room that cannot hear clearly cannot be convinced.",
         "We own no equipment, and that is deliberate. It lets us produce anywhere in the country through local, trusted partners, and it means the production is specified for your show rather than built from what sits in a warehouse. Our own background in audio visual production is the reference point: we know what equipment should cost in any market, and what a show needs against what a quote tends to include.",
+        "A live event production checklist should cover the objective, venue, production specification, vendor contracts, stage and screen design, speaker and playback files, crew schedule, load-in, technical rehearsal, run of show, show calling and closeout. For a conference or summit, the production plan should be locked before show day and tested in the room during a full technical rehearsal.",
       ],
     },
     included: {
@@ -142,6 +143,7 @@ export const SERVICE_PAGES = [
     ],
     faqs: [
       ["What does a live event production company do?", "It designs, builds and runs the technical side of a live event: the stage, lighting, sound, video, screens and scenic, plus the crew and the rehearsal. We add the direction on top: one technical direction for the room, a show caller on the day, and the strategy and revenue work a production company does not offer."],
+      ["What does a show caller do?", "A show caller runs the live cue sequence. They call the lighting, sound, video, stage and presentation cues from the run of show while coordinating with the event director and technical crew. The event technical director makes sure the production system is ready, while the show caller keeps every cue moving once the program begins."],
       ["How far in advance do we need to book live event production?", "Most clients bring us in 8 to 10 months before the event, and that is the lead time we design for: it leaves room to choose the venue and the dates as strategy decisions rather than defaults. Thirty days is the floor. We take a full production on at that notice as an emergency, and some experiences can be done in less depending on their complexity."],
       ["How long does load-in take for a 1,000-person summit?", "One to two days, followed by Day 0, a full tech rehearsal. Too little time for load-in and setup is the problem we see most often in events we did not produce, so the days are planned into the countdown from the start."],
       ["Do you bring your own equipment?", "No, and on purpose. Owning nothing lets us produce anywhere in the country through local partners who know the venue, and specify the production for your show rather than for a warehouse. Our AV background means we know what equipment should cost in any market."],
@@ -167,9 +169,9 @@ export const SERVICE_PAGES = [
     draft: false,
     plate: "/images/gallery/bad-after-dark/03.webp",
     title: "Audio visual event production",
-    seoTitle: "Audio Visual Event Production | Iconic Events, Miami and Las Vegas",
+    seoTitle: "Audio Visual Production Company for Events | Iconic Events",
     description:
-      "Audio visual event production by Iconic Events: sound, LED, video and lighting specified for your show, the AV contract negotiated down to what the show needs, and the room rehearsed on Day 0. Founded 2017, based in Miami.",
+      "Audio visual production for conferences, summits and live events: sound, LED, video and lighting specified for your show and negotiated to what it needs.",
     buyer:
       "Audio visual event production for founders, brands and creators who need the sound, screens and lighting of a summit or launch specified for the show, negotiated to what it needs, and run as one instrument.",
     lead:
@@ -180,6 +182,7 @@ export const SERVICE_PAGES = [
         "Audio visual event production, AV for short, is the sound system, the microphones, the LED walls and projection, the cameras, the lighting rig and the people who operate them. For a room of 3,000 that can mean a 90-foot LED wall, six rigged delay screens, more than fifty line array cabinets, four broadcast cameras and about 180 lighting fixtures. For a room of 200 it is a fraction of that. In both cases the question is the same: what does this show need?",
         "Most AV quotes answer a different question: what can be rented. We start from the run of show and specify the system for it. Audio is designed for speech first, with delays and front fills so every seat hears clearly and headset microphones so speakers can move. Screens are sized to the room and its sightlines. Lighting is cued to the moments in the show rather than left as a wash. Then the quotes are read against that specification, what the show needs is separated from what a quote tends to include, and the contract is negotiated down, usually by tens of thousands of dollars and sometimes by hundreds of thousands.",
         "We own no equipment, and that is deliberate. It means we can produce anywhere in the country through local partners who know the venue, and it means we are specifying for your show rather than for a warehouse. Our own background in audio visual production is the reference point: we know what equipment should cost in any market. Our clients range from first-time producers to teams with seasoned AV partners of their own, and both leave an engagement knowing what their show needs and why.",
+        "Event lighting is part of the production system, not a decorative add-on. The design should keep speakers readable, direct attention to the stage, support the camera image and change with the program. Conference AV production brings the audio, screens, playback, lighting, cameras and operators into one tested system so the audience can hear and see every session.",
       ],
     },
     included: {
@@ -211,6 +214,7 @@ export const SERVICE_PAGES = [
       paragraphs: [
         "An AV rental house supplies and operates equipment, and the good ones do it well. The quote is built from what they have and what they have been asked for, and a client who does not know what a show needs will usually be quoted more than it needs.",
         "We sit on the client's side of that quote. We write the specification first, read the quote against it, and negotiate the contract down to what the show needs. On the day we direct the room through one show caller, so the AV partner, the stage and the speakers move together. The rental house is still in the room. The difference is who decided what it would be.",
+        "For a conference stage, an LED wall works well when the room has strong ambient light, the stage needs a large branded image or the program depends on camera-ready content. Projection can suit a smaller room or a controlled lighting environment. The right choice depends on screen size, sightlines, brightness, camera use, rigging and the production budget, not on the equipment label alone.",
       ],
     },
     proof: {
@@ -236,6 +240,7 @@ export const SERVICE_PAGES = [
     ],
     faqs: [
       ["What does audio visual event production include?", "Sound, microphones, LED walls and projection, cameras, lighting and the crew who operate them, plus the rigging and power they need. We add the specification before anything is quoted, the negotiation of the contract, a full tech rehearsal on Day 0 and a show caller on the day."],
+      ["Should we use the venue's in-house AV or an outside AV company?", "Check whether the venue allows outside AV and what it charges for power, rigging and labor. We read the venue quote against a written specification and negotiate it, and we bring an outside partner when that is the better fit. You sign the contract yourself."],
       ["Do you own the AV equipment?", "No, and on purpose. Owning nothing lets us produce anywhere in the country through local partners who know the venue, and specify the system for your show rather than for a warehouse. Our own background in audio visual production means we know what equipment should cost in any market."],
       ["How do you keep AV costs down?", "By writing the specification first and reading the quote against it. What the show needs is separated from what a quote tends to include, and the contract is negotiated down, usually by tens of thousands of dollars and sometimes by hundreds of thousands. You sign the AV contract yourself; we align the vision with you, then negotiate it. Our fee is a management fee, fixed at the outset and tied to scope."],
       ["We already have an AV partner. Can you work with them?", "Yes. Our clients range from first-time producers to teams with seasoned AV partners, and the partner stays. We still write the specification, read their quote against it, and direct the room on the day so the partner, the stage and the speakers move together."],
@@ -259,9 +264,9 @@ export const SERVICE_PAGES = [
     draft: false,
     plate: "/images/gallery/bulletproof-financial-accelerator/08.webp",
     title: "Event video production",
-    seoTitle: "Event Video Production and Content Capture | Iconic Events",
+    seoTitle: "Event Videography and Video Production | Iconic Events",
     description:
-      "Event video production by Iconic Events: a content crew on every show day, the top 20 photographs delivered by the next morning, Storymonials within 30 days, and every frame of raw footage yours in your own Drive. Founded 2017, based in Miami.",
+      "Event videography and video production by Iconic Events: content crew, next-morning photos, Storymonials in 30 days and raw footage delivered to your Drive.",
     buyer:
       "Event video production for founders, brands and creators who need one night captured and cut into a quarter of content, with the raw footage theirs to keep.",
     lead:
@@ -272,6 +277,7 @@ export const SERVICE_PAGES = [
         "Event video production is the work of turning a live event into content that keeps working after the doors close. It starts before the event, with the capture planned into the run of show so the crew is in position for the walk-ons, the reveals and the offer. It runs through the event with a content crew on every show day. It ends weeks later with the finished edits delivered and the raw footage organised in your Drive.",
         "Trust is built in a room, not on a social feed. The feed is where that trust travels afterwards, and that is what the capture is for. The top 20 photographs from each show day are edited in our downtime and delivered the same day or by the following morning, so you can post while the event is still happening, at no extra charge for the speed. Testimonials are captured in the last day or two, when the crews are repositioned to them, and cut as Storymonials: films that layer the attendee's story over footage from the event rather than a person answering a question at a camera.",
         "What you receive is not a folder of hundreds of gigabytes to search. Our own AI engines sort the footage and pull the best shots of each speaker and of the moments you chose, alongside all the raw footage organised by day in the way any editor or creative director expects. Once your bill is closed you own 100 percent of it, the footage and the edits.",
+        "Conference video production should capture more than the keynote. A useful event content plan includes speaker highlights, attendee reactions, room and stage footage, sponsor moments, behind-the-scenes production and short testimonials. The capture plan should be agreed before the event so the crew knows which moments must become social clips, recap films or sales content.",
       ],
     },
     included: {
@@ -327,6 +333,7 @@ export const SERVICE_PAGES = [
     ],
     faqs: [
       ["What does event video production include?", "A capture plan written into the run of show, a content crew on every show day, the top 20 photographs by the next morning, testimonials captured and cut as Storymonials within 30 days, the finished edits and graphics made in house, and all the raw footage organised by day in your own Drive."],
+      ["How do I repurpose event content?", "Plan the capture before the event, not after. The finished library can become same-day social posts from the top 20 photos, speaker reels, short testimonial films, recap videos, email clips and sales assets. Organize the raw footage by day and speaker so the team can find each format without searching an unstructured archive."],
       ["Who owns the footage?", "You do. Once your bill is closed you own 100 percent of it, the raw footage and the edits. It is delivered to your own Google Drive, organised by day in the way any editor or creative director expects, with the AI-sorted selects of each speaker beside it."],
       ["How quickly do we get photographs we can post?", "The top 20 from each show day, edited in our downtime and delivered the same day or by the following morning at the latest, so you can post while the event is still happening. There is no extra charge for the speed."],
       ["How many people are on a content crew?", "At least three: a videographer, a photographer and a creative director. Events that want more content get more crews, and a socials creator for real-time short-form. Behind the crews, a graphics editor and a video editor make the finished content."],
@@ -354,7 +361,7 @@ export const SERVICE_PAGES = [
     title: "Event production in Miami",
     seoTitle: "Event Production Company in Miami | Iconic Events",
     description:
-      "Iconic Events is an event production company headquartered in Miami since 2017: more than 100 events across Miami, Miami Beach, Fort Lauderdale and Hollywood, at the venues we know best, with site visits on request.",
+      "Miami event production by Iconic Events for conferences, summits and live events, with local venue knowledge, site visits and production from one team.",
     buyer:
       "Event production in Miami for founders, brands and creators bringing a summit, launch or mastermind to South Florida and needing a team that already knows the venues.",
     lead:
@@ -365,6 +372,8 @@ export const SERVICE_PAGES = [
         "Miami is our first home ground and Fort Lauderdale our second. Since 2017 we have produced more than 100 events across South Florida: multi-day summits at the Seminole Hard Rock in Hollywood, a first live event at the Fontainebleau Miami Beach, a conference for 3,000 at the Broward County Convention Center, and a launch in an open-air parking garage at 1111 Miami when every ballroom in the city was capped at 75 people.",
         "That volume is the advantage a client cannot bring on their own. We have worked with almost every venue in South Florida, so we usually know the right room before the first call ends, and we hunt as many as it takes until you are happy. With the major hotels we are a repeat customer, which is what lets us negotiate rates, room blocks and forgiveness on attrition in the client's favour. When war broke out where one client's community was staying, that relationship was what waived $51,000 in hotel attrition fees and kept the event on track.",
         "If you are considering a venue, call us. A site visit with you is standard, not a favour. Most event planners oversee logistics. We engineer the room your audience decides in, and in Miami we have engineered more of them than anywhere else.",
+        "Corporate event production in Miami needs more than a venue, guest list and vendor schedule. It needs a production plan for the stage, sound, screens, lighting, speakers, content, rehearsal and run of show. Iconic Events handles the planning and production together, so corporate teams have one accountable partner for the room and the program.",
+        "Iconic Events is a Miami event production company for corporate conferences, summits and live events. Based in Miami since 2017, the team manages the venue, creative, production, content and show-day execution needed to move an event from the first brief to a finished room.",
       ],
     },
     included: {
@@ -426,6 +435,7 @@ export const SERVICE_PAGES = [
     ],
     faqs: [
       ["Are you based in Miami?", "Yes. We were founded in Miami in 2017 and it is our headquarters, with Las Vegas as a second base. Miami is our first home ground and Fort Lauderdale our second, and we have produced more than 100 events across South Florida."],
+      ["How do you choose an event production company in Miami?", "Ask which venues the team knows, who will call the show, how the production is specified, how much rehearsal time is planned, who signs the vendor contracts and what content is delivered afterward. Iconic Events produces rooms from 20 to 3,000 people and can walk a South Florida venue before the event is booked."],
       ["Which Miami venues have you produced in?", "Almost every one in South Florida. Among them: the Seminole Hard Rock in Hollywood, the Guitar Hotel, the Broward County Convention Center, the Fontainebleau and the Eden Roc on Miami Beach, the Hilton Fort Lauderdale Marina, the Omni Fort Lauderdale, Hard Rock Stadium and 1111 Miami."],
       ["Can you walk a venue with us before we book it?", "Yes, and it is standard. If you are considering a venue in South Florida, call us and we will do the site visit with you."],
       ["How do you get better hotel rates than we could?", "Volume. We are a repeat customer at the major South Florida hotels, which lets us negotiate rates, room blocks and forgiveness on attrition that a client booking one event cannot. At one event that relationship waived $51,000 in attrition fees when a crisis abroad kept guests away."],
