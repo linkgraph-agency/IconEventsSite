@@ -28,7 +28,7 @@ import { responsive } from "../lib/img.js"
 
 const TITLE = "Event Production Services | Iconic Events"
 const DESCRIPTION =
-  "Strategy, creative, production, content, operations and revenue for live events, under one team and a single line of authority. Iconic Events, event production since 2017."
+  "Event production services for summits, conferences, brand launches and creator events, from strategy and creative through production, content and revenue."
 
 /* One plate per zone, all event photography from the case study folders
    (no generated images, Icon's call). Each is chosen to show the zone at
@@ -122,7 +122,7 @@ function Hero() {
           className="fade-rise mx-auto mt-5 max-w-[26ch] font-serif text-5xl font-semibold leading-[0.96] [text-wrap:balance] sm:text-6xl lg:text-7xl"
           style={{ animationDelay: "80ms" }}
         >
-          Six zones of service and support. One line of authority.
+          Event production services for summits, conferences and creator events.
         </h1>
         <p className="fade-rise mx-auto mt-6 max-w-[68ch] font-sans text-lg leading-relaxed text-bone/70" style={{ animationDelay: "180ms" }}>
           Most event planners oversee logistics. We engineer the room your audience decides in. Strategy,
@@ -130,6 +130,42 @@ function Hero() {
           vendors.
         </p>
 
+      </div>
+    </section>
+  )
+}
+
+function HubIntro() {
+  const faqs = [
+    ["What does an event production company do?", "An event production company designs, builds and runs the live event: the venue, stage, lighting, sound, video, crew and run of show. Iconic Events also handles strategy, creative, content, operations and revenue, so one team owns the room instead of separate planning, AV and production vendors."],
+    ["What is the difference between an event planner and an event producer?", "A planner coordinates logistics such as dates, guests and vendors. A producer builds and runs the live experience: the stage, sound, lighting, video, rehearsal and show-day cues. Iconic Events combines both roles and adds strategy, content, operations and revenue support."],
+    ["How much does event production cost?", "Event production cost depends on the format, venue, audience size, production system and crew. Iconic Events sets a management fee at the start and defines the production scope before vendor quotes are approved, so the client can see what the show needs and what each supplier is charging."],
+  ]
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map(([name, text]) => ({
+      "@type": "Question",
+      name,
+      acceptedAnswer: { "@type": "Answer", text },
+    })),
+  }
+  return (
+    <section className="border-b border-bone/10 py-12 sm:py-16">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <div className="mx-auto max-w-6xl px-5 sm:px-6">
+        <div className="max-w-3xl">
+          <h2 className="font-serif text-4xl font-semibold leading-tight text-bone sm:text-5xl">What does an event production company do?</h2>
+          <p className="mt-6 font-sans text-base leading-relaxed text-bone/75">An event production company designs, builds and runs the live event: the venue, stage, lighting, sound, video, crew and run of show. Iconic Events also handles strategy, creative, content, operations and revenue, so one team owns the room instead of separate planning, AV and production vendors.</p>
+        </div>
+        <div className="mt-10 grid gap-x-10 gap-y-8 sm:grid-cols-3">
+          {faqs.slice(1).map(([question, answer]) => (
+            <div key={question}>
+              <h3 className="font-serif text-2xl font-semibold leading-tight text-bone">{question}</h3>
+              <p className="mt-3 font-sans text-sm leading-relaxed text-bone/65">{answer}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )
@@ -301,6 +337,7 @@ export default function ServicesPage() {
     <main className="min-h-screen bg-onyx text-bone">
       <SiteHeader />
       <Hero />
+      <HubIntro />
 
       <section className="py-12 sm:py-20">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-5 sm:px-6 lg:grid-cols-12 lg:gap-16">

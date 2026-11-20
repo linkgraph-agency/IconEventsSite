@@ -66,7 +66,7 @@ ROUTES.push(
     path: '/services',
     title: 'Event Production Services | Iconic Events',
     description:
-      'Strategy, creative, production, content, operations and revenue for live events, under one team and a single line of authority. Iconic Events, event production since 2017.',
+      'Event production services for summits, conferences, brand launches and creator events, from strategy and creative through production, content and revenue.',
     image: '/og/default.jpg',
   },
   // The service pages and the city pages, from the same list the router
